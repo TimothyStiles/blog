@@ -40,11 +40,11 @@ From design intent you can already tell that Go was made to create stable, maint
 
 * A lot of scientists are familiar with it.
 * Maybe better support for machine learning frameworks? Funny enough alot of the models trained with python are exported and deployed with Go.
-* Just-in-time compilation lets you do a whole but of cool, funky things that wouldn't be suitable for production code.
+* Just-in-time compilation lets you do a whole bunch of cool, funky things that wouldn't be suitable for production code.
 
 ## Go was the easy choice
 
-Looking at my criteria and the Go's features it's now probably a little easier to see why I chose Go. It often feels like most of tech moved on from Python and Ruby a decade ago, and biotech never really did. From a tech perspective biotech's obsession with Python and R are super weird and off putting. Both are seen as unpleasant languages to ship things with but for some reason biotech still clings to them.
+Looking at my criteria and the Go's features it's now probably a little easier to see why I chose Go. It often feels like most of tech moved on from Python and Ruby a decade ago, and biotech never really did. From a tech perspective biotech's obsessions with Python and R are off putting. Both are seen as unpleasant languages to ship things with but for some reason biotech still clings to them.
 
 So I'll ask you this before I end my rambling. Now that you know why I chose Go, do you know why you're not choosing Go?
 
