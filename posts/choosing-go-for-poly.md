@@ -46,7 +46,7 @@ From design intent you can already tell that Go was made to create stable, maint
 
 Looking at my criteria and the Go's features it's now probably a little easier to see why I chose Go. It often feels like most of tech moved on from Python and Ruby a decade ago, and biotech never really did. From a tech perspective biotech's obsessions with Python and R are off putting. Both are seen as unpleasant languages to ship things with but for some reason biotech still clings to them.
 
-So I'll ask you this before I end my rambling. Now that you know why I chose Go, do you know why you're not choosing Go?
+Now that you know why I chose Go, do you know why you're not choosing Go?
 
 Happy hacking,
 
