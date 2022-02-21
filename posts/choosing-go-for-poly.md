@@ -44,8 +44,11 @@ From design intent you can already tell that Go was made to create stable, maint
 
 ## Go was the easy choice
 
-Looking at my criteria and Go's features it's now probably a little easier to see why I chose Go. I often get strange looks from synthetic biologists when I tell them I'm using Go but to be honest every backend engineer and web dev I've met is *thrilled* that I'm using Go over Python......
+Looking at my criteria and Go's features it's now probably a little easier to see why I chose Go. I often get strange looks from synthetic biologists when I tell them I'm using Go but to be honest almost every professional software engineer I've met is *thrilled* that I'm using Go over Python because it's something they can actually *use*.
 
-Happy hacking,
+The next generation of biotech software isn't going to be written in Python, R, or even Julia. It's going to be written in languages built for the modern age and the shift has already begun. More and more biotech software developers are choosing Go and Rust because it just makes sense. Go is super easy to learn and develop in. Rust is harder to learn than go and the way it handles strings is too esoteric for the average synthetic biologist but I'm seeing more and more solid bioinfomatics tools being made with Rust every day.
+
+Programming languages live and die with every generation or programmers. Today's Go is tomorrow's Python. What's important is that you choose the right tool for the job and I think it's time synthetic biologists, biotechnologists, and scientists as a whole reevaluate what's right for them. Many would find that it's no longer Python or R.
+
 
 Tim
