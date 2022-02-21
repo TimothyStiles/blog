@@ -50,5 +50,6 @@ The next generation of biotech software isn't going to be written in Python, R, 
 
 Programming languages live and die with every generation or programmers. Today's Go is tomorrow's Python. What's important is that you choose the right tool for the job and I think it's time synthetic biologists, biotechnologists, and scientists as a whole reevaluate what's right for them. Many would find that it's no longer Python or R.
 
+TTFN,
 
 Tim
