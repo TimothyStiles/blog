@@ -16,7 +16,7 @@ R, Matlab, and probably to a lesser extent Julia suffer from similar problems th
 
 ## Go was made to ship infrastructure
 
-Sometime in the late aughts software engineering teams at Google were running into a problem. C was fast but a pain to develop in. Python was easier to develop in but it wasn't scalable enough for the massive infrastructure Google was running and maintaining day to day. Three highly qualified Google devs set out to create a language that was almost as fast a C and easier to develop in than Python that would allow thousands of Google employees to work on the same project in tandem with little issue. That's how Go was born.
+Sometime in the late aughts software engineering teams at Google were running into a problem. C was fast but a pain to develop in. Python was easier to develop in but it wasn't scalable enough for the massive infrastructure Google was running and maintaining day to day. So to solve this three highly qualified Google devs set out to create a language that was almost as fast a C and easier to develop in than Python that would allow thousands of Google employees to work on the same project in tandem with little issue. That's how Go was born.
 
 From design intent you can already tell that Go was made to create stable, maintainable infrastructure and that its design intent closely aligns with my design intent for Poly. That same design intent is also why Docker, kubernetes, Git-LFS, Terraform, Ethereum, and countless projects have been written in Go. Go makes it easy to create massive, scalable projects with thousands of contributors.
 
