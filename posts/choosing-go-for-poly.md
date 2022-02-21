@@ -6,7 +6,7 @@ I took great care in choosing the language given what Poly needed, and Python an
 
 ## What were my requirements?
 
-I wanted a library that was super stable that I could build the next ten years of my life's work on. I wanted it to be widely adoptable, easy to use and maintain, and I wanted it to be fast and energy efficient ie. scalable. At the time I imagined Poly would have an officially supported CLI so I also needed a language that shipped binaries to many different targets else I rely on my user's knowledge of Docker to run my code.
+I wanted a to build library that was super stable with which I could build the next ten years of my life's work on. I wanted it to be widely adoptable, easy to use and maintain, and I wanted it to be fast and energy efficient i.e. scalable. At the time I imagined Poly would have an officially supported CLI so I also needed a language that shipped binaries to many different targets else I rely on my user's knowledge of Docker to run my code.
 
 That binary requirement already ruled out Python, R, and Julia. Leaving me with just Go and Rust but even without that requirement I would have chosen Go. Remember, I was seeing this as infrastructure that needed to last ten years and Python et. al were never designed for this task.
 
@@ -18,7 +18,7 @@ R, Matlab, and probably to a lesser extent Julia suffer from similar problems th
 
 Sometime in the late aughts software engineering teams at Google were running into a problem. C was fast but a pain to develop in. Python was easier to develop in but it wasn't scalable enough for the massive infrastructure Google was running and maintaining day to day. Three highly qualified Google devs set out to create a language that was almost as fast a C and easier to develop in than Python that would allow thousands of Google employees to work on the same project in tandem with little issue. That's how Go was born.
 
-From design intent you can already tell that Go was made to create stable, maintainable, infrastructure and that its design intent closely aligns with my design intent for Poly. That same design intent is also why Docker, kubernetes, Git-LFS, Terraform, Ethereum, and so many devs since then have chosen to write their projects in Go for exactly the same reason. Go makes it easy to create massive, scalable projects with thousands of contributors.
+From design intent you can already tell that Go was made to create stable, maintainable infrastructure and that its design intent closely aligns with my design intent for Poly. That same design intent is also why Docker, kubernetes, Git-LFS, Terraform, Ethereum, and countless projects have been written in Go. Go makes it easy to create massive, scalable projects with thousands of contributors.
 
 ## So what does Go do that Python doesn't?
 
@@ -30,23 +30,21 @@ From design intent you can already tell that Go was made to create stable, maint
 * Native [example tests](https://go.dev/blog/examples). (This is my favorite feature to prevent doc rot)
 * Native, centralized [doc sites](https://pkg.go.dev/github.com/TimothyStiles/poly) that automatically update with every release you push.
 * 25X faster and more energy efficient than Python.
-* Incredible dev tools/CI/CD/Devops ecosystem.
+* Incredible tooling/CI/CD/Devops ecosystem.
 * Incredible package ecosystem where most things actually run.
 * A dev community that takes code quality seriously.
-* No `pyenv`. I haven't managed individual dev environments for a project in YEARS.
+* No `pyenv`. I haven't managed individual dev environments for a project in YEARS. Go just works.
 * Avoid Docker and just ship binaries via [GoReleaser](https://github.com/goreleaser/goreleaser/) unless you need a container for a horizontally scaling application or something.
 
 ## What does Python have that Go doesn't?
 
 * A lot of scientists are familiar with it.
-* Maybe better support for machine learning frameworks? Funny enough alot of the models trained with python are exported and deployed with Go.
+* Maybe better support for machine learning frameworks? Funny enough alot of the models trained with Python are exported and deployed with Go.
 * Just-in-time compilation lets you do a whole bunch of cool, funky things that wouldn't be suitable for production code.
 
 ## Go was the easy choice
 
-Looking at my criteria and the Go's features it's now probably a little easier to see why I chose Go. It often feels like most of tech moved on from Python and Ruby a decade ago, and biotech never really did. From a tech perspective biotech's obsessions with Python and R are off putting. Both are seen as unpleasant languages to ship things with but for some reason biotech still clings to them.
-
-Now that you know why I chose Go, do you know why you're not choosing Go?
+Looking at my criteria and Go's features it's now probably a little easier to see why I chose Go. I often get strange looks from synthetic biologists when I tell them I'm using Go but to be honest every backend engineer and web dev I've met is *thrilled* that I'm using Go over Python......
 
 Happy hacking,
 
