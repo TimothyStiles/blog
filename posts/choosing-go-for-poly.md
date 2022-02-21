@@ -41,7 +41,7 @@ From design intent you can already tell that Go was made to create stable, maint
 * A lot of scientists are familiar with it.
 * Maybe better support for machine learning frameworks? Funny enough alot of the models trained with Python are exported and deployed with Go.
 * Just-in-time compilation lets you do a whole bunch of cool, funky things that wouldn't be suitable for production code.
-* Better generics
+* Better generics.
 
 ## Go was the easy choice
 
